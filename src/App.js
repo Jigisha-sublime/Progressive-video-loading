@@ -25,7 +25,7 @@ const Video = () => {
   }
   return (
     <div className="container">
-     {isLoading && <img className="video-thumb tiny" src={imgThumb} style={{opacity: isLoading ? "1" :"0"}}/>}
+     {isLoading && <img className="video-thumb tiny" src={imgThumb}/>}
       <video
         autoPlay
         playsInline
